@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProxyBackApplication {
+public class MainBackApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProxyBackApplication.class, args);
+        SpringApplication.run(MainBackApplication.class, args);
     }
 
 }
