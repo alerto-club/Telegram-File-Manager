@@ -31,12 +31,10 @@ graph TD
     Bot <-->|Scan & Sync| Disk[Local Storage]
     
     subgraph "Storage Modes"
-    Disk -->|SHARED| Public[/test_storage/]
-    Disk -->|PRIVATE| Private[/test_storage/{username}/]
+    Disk -->|SHARED| Public[/"/test_storage/"/]
+    Disk -->|PRIVATE| Private[/"/test_storage/{username}/"/]
     end
-
 ```
-
 ---
 
 ### 🔥 Ключевые возможности
