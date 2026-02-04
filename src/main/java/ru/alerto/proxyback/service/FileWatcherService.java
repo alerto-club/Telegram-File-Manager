@@ -20,7 +20,7 @@ import java.util.Collection;
 @RequiredArgsConstructor
 public class FileWatcherService {
 
-    private final FileSystemService fileSystemService; // Инжектим сервис вместо репозитория
+    private final FileSystemService fileSystemService;
 
     @Value("${app.files.root}")
     private String rootPath;
